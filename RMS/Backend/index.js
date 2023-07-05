@@ -9,7 +9,7 @@ app.use(bodyparser.json());
 
 //Database Connection
 const db=mysql.createConnection({
-    host:'localhost',user:'root',password:'root123',database:'rms',port:3306
+    host:'database-1.cyscravmnjlp.us-east-1.rds.amazonaws.com',user:'admin',password:'admin123',database:'rms',port:3306
 });
 
 //check Database Connection
